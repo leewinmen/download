@@ -1,11 +1,9 @@
 #!/bin/sh
 
-# @author Bosco.Liao
 # @version 1.2.0
 #
 # AliDDNS:
 # 支持指定域名下解析记录的更新和添加，现用于群晖NAS的DDNS，运行情况稳定。
-# 如使用中发现问题，可反馈给本人：bosco_liao@126.com
 #
 # Usage:
 #   ./aliddns.sh [OPTION]
@@ -21,13 +19,15 @@
 #   
 #   2) ./aliddns.sh -d example.com -h \* -t CNAME -v abc.sample.com -l 60
 #
+#   3) ./aliddns.sh -d darler.cn -h dsm -t AAAA -v 240e:3b4:483:ead0:211:32ff:fee9:e277
+#
 
 #==============================Settings===============================
 #
 #====================================================================
 
-access_key_id="LTAI5tHD7ezgr35xyLrwZ84j"
-access_key_secret="w32Oq9ElrPM7rAMMuOIfv1s4P49sNN"
+access_key_id="LTAI5tD7ezgr"
+access_key_secret="w32Oq9E"
 
 #==============================Functions=============================
 #

@@ -2,6 +2,23 @@
 
 
 
+#### HTML实现页面自动跳转
+
+代码如下:
+
+```
+<head> 
+<meta http-equiv="refresh" content="3;url=hello.html"> 
+</head> 
+```
+
+
+优点：简单
+
+缺点：Struts Tiles中无法使用
+
+
+
 #### 群晖使用shell实现IPV6的ddns外网访问
 
 
@@ -48,7 +65,7 @@ eg：
 ```
 cd /root
 mkdir ddns && cd ddns
-wget https://raw.githubusercontent.com/leewinmen/download/master/aliddns.sh
+wget https://github.com/leewinmen/download/blob/master/aliddns.sh
 
 vi aliddns.sh #修改如下信息
 i #编辑
