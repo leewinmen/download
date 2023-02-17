@@ -430,7 +430,7 @@ body:has(#heoMusic-page) .aplayer .aplayer-info .aplayer-controller .aplayer-tim
     display: flex;
   }
   #heoMusic-page ol > li span {
-    color: var(--font-color);
+    color: rgb(0 0 0 / 70%);
   }
   #heoMusic-page ol > li span.aplayer-list-title {
     width: 30%;
